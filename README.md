@@ -6,7 +6,12 @@
 
 A fancy, easy-to-use and reactive self-hosted docker compose.yaml stack-oriented manager.
 
-[![GitHub Repo stars](https://img.shields.io/github/stars/louislam/dockge?logo=github&style=flat)](https://github.com/louislam/dockge) [![Docker Pulls](https://img.shields.io/docker/pulls/louislam/dockge?logo=docker)](https://hub.docker.com/r/louislam/dockge/tags) [![Docker Image Version (latest semver)](https://img.shields.io/docker/v/louislam/dockge/latest?label=docker%20image%20ver.)](https://hub.docker.com/r/louislam/dockge/tags) [![GitHub last commit (branch)](https://img.shields.io/github/last-commit/louislam/dockge/master?logo=github)](https://github.com/louislam/dockge/commits/master/)
+## Fork Info
+
+This is my fork of Dockge which will have some fixes from the original. Chief among these is replacing the editor with CodeMirror rather than the old, broken Prism editor. Currently, you can switch to it by just
+replacing `louislam/dockge` with `andersmmg/dockge` in your docker compose file. I take no responsibility for any issues or lost data from using or switching to this fork, but in my testing it works well.
+
+[![GitHub Repo stars](https://img.shields.io/github/stars/andersmmg/dockge?logo=github&style=flat)](https://github.com/andersmmg/dockge) [![Docker Pulls](https://img.shields.io/docker/pulls/andersmmg/dockge?logo=docker)](https://hub.docker.com/r/andersmmg/dockge/tags) [![Docker Image Version (latest semver)](https://img.shields.io/docker/v/andersmmg/dockge/latest?label=docker%20image%20ver.)](https://hub.docker.com/r/andersmmg/dockge/tags) [![GitHub last commit (branch)](https://img.shields.io/github/last-commit/andersmmg/dockge/master?logo=github)](https://github.com/andersmmg/dockge/commits/master/)
 
 <img src="https://github.com/louislam/dockge/assets/1336778/26a583e1-ecb1-4a8d-aedf-76157d714ad7" width="900" alt="" />
 
@@ -58,7 +63,7 @@ mkdir -p /opt/stacks /opt/dockge
 cd /opt/dockge
 
 # Download the compose.yaml
-curl https://raw.githubusercontent.com/louislam/dockge/master/compose.yaml --output compose.yaml
+curl https://raw.githubusercontent.com/andersmmg/dockge/master/compose.yaml --output compose.yaml
 
 # Start the server
 docker compose up -d
@@ -95,7 +100,6 @@ docker compose pull && docker compose up -d
 
 ![](https://github.com/louislam/dockge/assets/1336778/e7ff0222-af2e-405c-b533-4eab04791b40)
 
-
 ![](https://github.com/louislam/dockge/assets/1336778/7139e88c-77ed-4d45-96e3-00b66d36d871)
 
 ![](https://github.com/louislam/dockge/assets/1336778/f019944c-0e87-405b-a1b8-625b35de1eeb)
@@ -114,17 +118,17 @@ If you love this project, please consider giving it a ⭐.
 ## 🗣️ Community and Contribution
 
 ### Bug Report
-https://github.com/louislam/dockge/issues
+https://github.com/andersmmg/dockge/issues
 
 ### Ask for Help / Discussions
-https://github.com/louislam/dockge/discussions
+https://github.com/andersmmg/dockge/discussions
 
 ### Translation
-If you want to translate Dockge into your language, please read [Translation Guide](https://github.com/louislam/dockge/blob/master/frontend/src/lang/README.md)
+If you want to translate Dockge into your language, please read [Translation Guide](https://github.com/andersmmg/dockge/blob/master/frontend/src/lang/README.md)
 
 ### Create a Pull Request
 
-Be sure to read the [guide](https://github.com/louislam/dockge/blob/master/CONTRIBUTING.md), as we don't accept all types of pull requests and don't want to waste your time.
+Be sure to read the [guide](https://github.com/andersmmg/dockge/blob/master/CONTRIBUTING.md), as we don't accept all types of pull requests and don't want to waste your time.
 
 ## FAQ
 
